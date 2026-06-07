@@ -5,7 +5,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/syedayeshulhassanbukhari/sudo-ayesh.git',
+  base: '/sudo-ayesh/',
   plugins: [inspectAttr(), react()],
   server: {
     port: 3000,
