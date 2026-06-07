@@ -106,7 +106,7 @@ export default function Hero() {
               CONTACT ME
             </button>
             <button
-              onClick={() => window.open('https://drive.google.com/file/d/1x5mzmGGkEJfBYZ6zVqG9WkyebuxMjzQC/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1FiCHIq4rC6e547Vh49z1a-UFP2fS-Xb0/view?usp=sharing', '_blank')}
               className="inline-flex items-center gap-2 px-6 py-3 border border-[#52525B] text-white font-semibold rounded-xl hover:border-[#3B82F6] hover:text-[#3B82F6] transition-all duration-300"
             >
               <FileText size={18} />
