@@ -42,14 +42,14 @@ export default function Hero() {
           <div className="liquid-glass rounded-3xl p-6 transform transition-transform duration-500 hover:scale-[1.02]">
             <div className="relative rounded-2xl overflow-hidden mb-5 aspect-[3/4]">
               <img
-                src="/Main-bg.png"
+                src={`${import.meta.env.BASE_URL}Main-bg.png`}
                 alt="Ayesh Ul Hassan"
                 className="w-full h-full object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                 <div className="flex items-center gap-3">
                   <img
-                    src="/image-hero-avatar.png"
+                    src={`${import.meta.env.BASE_URL}image-hero-avatar.png`}
                     alt="Pixel Avatar"
                     className="w-12 h-12 object-contain"
                   />
@@ -67,7 +67,7 @@ export default function Hero() {
         <div ref={textRef} className="w-full lg:w-3/5 space-y-6">
           <div className="flex items-center gap-3 mb-2">
             <img
-              src="/image-hero-avatar.png"
+              src={`${import.meta.env.BASE_URL}image-hero-avatar.png`}
               alt="Pixel Avatar"
               className="w-10 h-10 object-contain"
             />

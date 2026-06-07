@@ -12,7 +12,7 @@ const blogPosts = [
     title: 'How I Ended Up Making A Virtual Pet In My GitHub README',
     description: 'A story about making an interactive github profile with Woop the wooper',
     tags: ['GitHub', 'Game Dev'],
-    image: '/image-doodle-wooper.png',
+    image: `${import.meta.env.BASE_URL}image-doodle-wooper.png`,
   },
   {
     date: 'Dec 17, 2025',
@@ -20,15 +20,15 @@ const blogPosts = [
     title: '12 Rules to Follow in Scripting',
     description: 'My cheatsheet/rulebook for writing clean, maintainable code.',
     tags: ['Scripting', 'Game Dev'],
-    image: '/image-doodle-boxcat.jpg',
+    image: `${import.meta.env.BASE_URL}image-doodle-boxcat.jpg`,
   },
 ];
 
 const doodles = [
-  { name: 'Boxcat', image: '/image-doodle-boxcat.jpg', rotation: -8 },
-  { name: 'City Night', image: '/image-doodle-city.jpg', rotation: 5 },
-  { name: 'Wooper', image: '/image-doodle-wooper.png', rotation: -3 },
-  { name: 'Wooper Play', image: '/image-doodle-wooper.png', rotation: 12 },
+  { name: 'Boxcat', image: `${import.meta.env.BASE_URL}image-doodle-boxcat.jpg`, rotation: -8 },
+  { name: 'City Night', image: `${import.meta.env.BASE_URL}image-doodle-city.jpg`, rotation: 5 },
+  { name: 'Wooper', image: `${import.meta.env.BASE_URL}image-doodle-wooper.png`, rotation: -3 },
+  { name: 'Wooper Play', image: `${import.meta.env.BASE_URL}image-doodle-wooper.png`, rotation: 12 },
 ];
 
 export default function Logbook() {

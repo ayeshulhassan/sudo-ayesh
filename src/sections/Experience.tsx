@@ -62,18 +62,18 @@ const softSkills = [
 ];
 
 const coreArsenal: SkillItem[] = [
-  { name: 'Unreal Engine', src: '/core/UE.png' },
-  { name: 'C++', src: '/core/Cpp.svg' },
+  { name: 'Unreal Engine', src: `${import.meta.env.BASE_URL}core/UE.png` },
+  { name: 'C++', src: `${import.meta.env.BASE_URL}core/Cpp.svg` },
   { name: 'Blueprints', icon: '🔵' },
-  { name: 'Blender', src: '/core/Blender.svg' },
-  { name: 'Dart', src: '/core/Dart.svg' },
-  { name: 'Flutter', src: '/core/Flutter.svg' },
+  { name: 'Blender', src: `${import.meta.env.BASE_URL}core/Blender.svg` },
+  { name: 'Dart', src: `${import.meta.env.BASE_URL}core/Dart.svg` },
+  { name: 'Flutter', src: `${import.meta.env.BASE_URL}core/Flutter.svg` },
 ];
 
 const secondarySkills: SkillItem[] = [
-  { name: 'Docker', src: '/core/Dcoker.svg' },
-  { name: 'Linux', src: '/core/linux.svg' },
-  { name: 'Web', src: '/core/webdevelopment.png' },
+  { name: 'Docker', src: `${import.meta.env.BASE_URL}core/Dcoker.svg` },
+  { name: 'Linux', src: `${import.meta.env.BASE_URL}core/linux.svg` },
+  { name: 'Web', src: `${import.meta.env.BASE_URL}core/webdevelopment.png` },
 ];
 
 export default function Experience() {
