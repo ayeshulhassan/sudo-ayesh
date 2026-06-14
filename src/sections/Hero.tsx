@@ -32,17 +32,17 @@ export default function Hero() {
     <section id="hero" className="relative min-h-screen w-full overflow-hidden flex items-center">
       <NebulaCanvas />
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-8">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row items-center gap-6 lg:gap-12">
         {/* Identity Card */}
         <div
           ref={cardRef}
-          className="w-full max-w-sm lg:w-2/5 perspective-1000"
+          className="w-full lg:w-1/2 perspective-1000"
           style={{ opacity: 0 }}
         >
           <div className="liquid-glass rounded-3xl p-6 transform transition-transform duration-500 hover:scale-[1.02]">
             <div className="relative rounded-2xl overflow-hidden mb-5 aspect-[3/4]">
               <img
-                src={`${import.meta.env.BASE_URL}Main-bg.png`}
+                src={`${import.meta.env.BASE_URL}Main-Image.jpeg`}
                 alt="Ayesh Ul Hassan"
                 className="w-full h-full object-cover"
               />
